@@ -1,0 +1,619 @@
+<Doctype html!>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Portfolio</title>
+        <link rel="stylesheet" href="css_accueil.css">
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+    </head>
+    <body class="body">
+        <div class="menu-haut">
+            <div><h2> H<span>B</span></h2></div>
+            <label for="toggle"><img src="bars-solid.svg"></label>
+            <input type="checkbox" id="toggle">
+            <ul class="navbar">
+                
+                <li ><a  class="dessus" href="#accueil">Accueil</a></li>
+
+                <li ><a class="dessus" href="#Apropos">A propos</a> </li>
+
+                <li id="partie1"><a  class="dessus"href="#projets">Projets</a></li>
+
+                <li id="partie1"><a class="dessus" href="#contact">Contact</a></li>
+
+                <li id="partie1"><a  class="dessus" href="cv_web_sanslien.pdf">Mon CV <img id="couleur" src="download-solid.svg" > </a></li>
+
+            </ul>
+        </div>
+         
+        
+
+
+        <div class="A" id="accueil">
+            <p class="B">BIENVENUE SUR MON PORTFOLIO</p>
+            <img id="im1" src="fleche.gif" alt="fleche">
+            <p class="C"><a>~</a> Je suis <i>Hafiza Ballo</i> passionnée de développement web.<br>Curieuse, rigoureuse, j’aime apprendre et relever des défis .<br> Actuellement à la recherche d’un contrat d’alternance, je vous invite à explorer mon portfolio pour en apprendre plus sur moi.</p>
+
+            <a id="image_apropos" href="#Apropos"> <i>A PROPOS</i> <img id="im2"  src="C:\Users\hafiz\OneDrive\Bureau\cours L2\photo moi.jpg" alt="image moi"> </a>
+            <div class="derriereim"></div>
+            <div class="geometric-box1"> </div>
+            <div class="geometric-box2"></div>
+            <!--<div class="geometric-box3"></div>-->
+        </div>
+        
+        
+           
+
+        <div class="apropos" id="Apropos">
+            <h5>Mon <span>portfolio</span> </h5>
+            <h3> A PROPOS</h3>
+            <div class="menuapropos">
+                <div><button type="button" class="prop0" id="tout">FORMATION</button></div>
+
+                <div>
+                    <button class="prop2" id="Cpt">COMPETENCE</button>
+                    <div>
+
+                    </div>
+                </div>
+
+                <!--<div>
+                    <button class="prop1"  id="pres">PRESENTATION</button>
+            
+                </div>-->
+
+        
+                
+            </div>
+
+            <div class="container">
+                <ul id="containercache">
+                    <li>
+                        <!--<span></span>-->
+                        <div>
+                            <div class="title">Master 1 en Ingénierie du web</div>
+                            <!--<div class="info">1ère & 2ème année</div>-->
+                            <div class="type">Ecole Supérieure de Génie Informatique</div>
+                        </div>
+                        <span class="number">
+                            <span>Rentrée 2025</span>
+                            <!--<span>2024</span>-->
+                        </span>
+                    </li>
+                    <li>
+                        
+                        <div>
+                            <div class="title">Licence 3 en Informatique parcours MIAGE</div>
+                            <!--<div class="info">1ère & 2ème année</div>-->
+                            <div class="type">Université Paris Saclay</div>
+                        </div>
+                        <span class="number">
+                            <span>2024-2025</span>
+                            <!--<span>2024</span>-->
+                        </span>
+                    </li>
+                    <li>
+                        
+                        <div>
+                            <div class="title">Licence 1 & 2 MIASHS</div>
+                            <!--<div class="info">1ère & 2ème année</div>-->
+                            <div class="type">Université Paris 1 Panthéon Sorbonne</div>
+                        </div>
+                        <span class="number">
+                            <span>2022-2024</span>
+                            <!--<span>2022</span>-->
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            
+                            <div class="title">Baccalauréat general, Spécialités Mathématiques et Physique-Chimie </div>
+                           <!-- <div class="info">Spécialités Mathématiques et Physique-Chimie</div>-->
+                            <div class="type">Lycée Maximilien Perret</div>
+                        </div>
+                        <span class="number">
+                            <span>2021-2022</span>
+                            <!--<span>2021</span>-->
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--<div class="espace">
+                <div>
+                    <button  id="moicacheId" >Moi</button>
+                    <div class="moicache" id="Prescache">
+                        <div><p class="part">Je suis Hafiza Ballo, élève en deuxième année de licence en Mathématiques et Informatique Appliquéees aux Sciences Humaines et Sociales (MIASHS) à l'université Paris1 Panthéon Sorbonne.Je souhaite intégrer pour ma troisième année la licence en Méthodes Informatiques Appliquées à la Gestion des Entreprises(MIAGE) afin d'accéder plutard a un master mention MIAGE. J'aimerais me spécialiser en developpement web car ce domaine offre tout le temps de nouveaux défis a relever. Cela me permettra de nourrir mon désir d'apprendre plus et ma curiosité et surtout, j'acquierai des connaissances dans des domaines que je ne connais pas. J'aurais aussi l'occasion de collaborer avec différentes personnes donc je pourrais developper mon sens de l'organisation et de communication. Cependant, je suis aussi attirée par la cybersécurité qui est tout aussi rempli de défis. <br> </p></div>
+                    </div>
+                </div>
+                 
+                <div>
+                    <button id="PTcacheId" >Passe-temps</button>
+                    <div class="PTcache" id="PrescachePt">
+                        <ul class="part" >
+                            <li> <i class="element1">Patisserie</i>: Comme presque tout le monde, j'aime beaucoup les gateaux, j'ai donc décidé depuis peu de me lancer dans la patisserie a mes heures perdues et sa se passe plutot pas mal pour l'instant. </li>
+                            <li> <i class="element1"> La nature</i>: J'ai une grande admiration pour la flore qui nous entoure, j'aime donc prendre mon temps pour decouvrir de nouveaux paysage</li>
+                        </ul>
+            
+                    </div>
+                </div>
+        
+                <div class="geometric-box1-PRESENTATION"> </div>
+                <div class="geometric-box2-PRESENTATION"></div>
+                <div class="geometric-box3-PRESENTATION"></div>
+    
+            </div>-->
+
+            <div class="MesC">
+
+                <div id="HautMesC">
+                    <div id="infodiv"> 
+                        <h4 id="info" >Informatique</h4>
+                            <ul >
+                                <li><b>Langages:</b> Python<span class="bibliotheque">(Numpy, Pandas, SciPy, Matplotlib)</span>   , Java<span class="bibliotheque">(Hibernate, JavaFX, Swing)</span>, C</li>
+                                <li><b>Développement Front-end:</b> HTML, CSS, Javascript<span class="bibliotheque">(JQuery)</span></li>
+                                <li><b>Développement Back-end:</b> PHP</li>
+                                <li><b>Bases de données:</b> MySQL, Oracle, SQL, JDBC</li>
+                                <li><b>Format de données:</b> JSON, XML</li>
+                                <li><b>Système d'exploitation:</b> Windows, Linux (Ubuntu)</li>
+                                <li><b>Outil de versioning:</b> Git/GitHub</li>
+                                <li><b>Architecture logicielle:</b> MVC (Modèle-Vue-Contrôleur)</li>
+                                <li><b>Environnement de développement:</b>Visual Studio Code, IntelliJ IDEA</li>
+                                <li><b>Outils de bureautique:</b> Microsoft Office (Word, Excel, PowerPoint)<!--? Power BI--></li>
+                                <li><b>Gestion de projet:</b>Diagramme de Gantt</li>
+                            </ul>
+                    </div>
+     
+                    <div id="autrediv"> 
+                        <h4 id="autre" >Autres</h4>
+                            <ul >
+                                <li><b>Mathématiques :</b>Algèbre, Analyse réelle, Statistiques et probabilités</li>
+                                <li><b>Economie :</b> Microéconomie, Macroéconomie</li>
+                                <li><b>Finance et comptabilité</b></li>
+                            </ul>
+                    </div>
+                </div>
+
+                <div id="certifications">
+                    <h4>Certifications</h4>
+                    <ul>
+                        <li>LinguaSkill(Certification en anglais par Cambridge) - Février 2025<br> score: 167(B2)</li>
+                        <li>Pix(Certification des compétences numériques) - Janvier 2023<br> score: 531/768</li>
+                    </ul>
+                </div>
+                
+                 
+                
+            </div>
+     
+            
+        </div>
+
+        <div id="projets">
+            <h5>Mon <span>portfolio</span> </h5>
+            <h3>PROJETS</h3>
+            <div class="proj">
+                <div class="boxJeu">
+                    <img  class="im-jeu" src="Comptease.png">
+                    <h4>Application de comptabilité: <span> Java</span></h4>
+                    <button id="comptease"> Détails <img  class="imageapropos" src="arrow-right-solid.svg"> </button>
+                </div>
+                <div class="boxJeu">
+                    <img class="im-jeu" src="cuisine.png">
+                    <h4>Site de recette de cuisine: <span> HTML, CSS, JS, PHP</span></h4>
+                    <button id="cuisine">Détails <img  class="imageapropos" src="arrow-right-solid.svg"></button>
+                </div>
+                <div class="boxJeu">
+                    <img class="im-jeu" src="im-jeu.jpg">
+                    <h4>Jeu de stratégie en temps réel: <span> Java</span></h4>
+                    <button id="nibelheim">Détails <img  class="imageapropos" src="arrow-right-solid.svg"></button>
+                </div>
+                <div class="boxJeu">
+                    <img class="im-jeu" src="circle.png">
+                    <h4>Mini jeu(inspiré de circle): <span> Java</span></h4>
+                    <button id="circle">Détails <img  class="imageapropos" src="arrow-right-solid.svg"></button>
+                </div>
+                <div class="boxJeu">
+                    <img class="im-jeu" src="journey.png">
+                    <h4>Site de compagnie aérienne: <span> HTML, CSS, JS, PHP</span></h4>
+                    <button id="journey">Détails <img  class="imageapropos" src="arrow-right-solid.svg"></button>
+                </div>
+                <div class="boxJeu">
+                    <img  class="im-jeu" src="im-jeu.jpg">
+                    <h4>Mini jeu: <span> Python</span></h4>
+                    <button id="jeuPython"> Détails <img  class="imageapropos" src="arrow-right-solid.svg"></button>
+                </div>
+                
+               <!-- <div class="boxJeu">
+                    <img class="im-jeu" src="crypter.jpg">
+                    <h4>Encryptage/Décryptage: <span> Java</span></h4>
+                    <button id="crypter">Détails <img  class="imageapropos" src="arrow-right-solid.svg"></button>
+                </div>-->
+    
+                <div class="boxJeu">
+                    <img class="im-jeu" src="ongles.png">
+                    <h4>Site personnel(en cours): <span> JS,HTML,CSS, PHP</span></h4>
+                    <button id="ongle">Détails <img  class="imageapropos" src="arrow-right-solid.svg"></button>
+                </div>
+                
+            </div>
+            
+            <section class="detailProjet" >
+                <div id="detailComptease">
+                    <ul>
+                        <button class="exit" onclick="fermerDetail()"><img src="xmark-solid-full.svg" alt="exit"></button>
+                        <b>ComptEase: Java</b>
+                        <li>Application de comptabilité pour les auto-entrepreneurs</li>
+                        <li>Gestion des transactions, des factures et des obligations fiscales</li>
+                        <li>Génération de rapports financiers automatisés</li>
+                        <li>Gestion des clients </li>
+                        <li>Utilisation de Java pour le développement back-end</li>
+                        <li>Interface utilisateur développée avec <i>JavaFX</i></li>
+                        <li>Intégration de la base de données <i>MySQL</i> pour le stockage des données</li>
+                        <li>Utilisation de la bibliothèque <i>Hibernate</i> pour la gestion des entités</li>
+                        <li>Utilisation de <i>GitHub</i> pour le contrôle de version</li>
+                    </ul>
+                        
+                </div>
+
+                <div id="detailCuisine">
+                    <ul>
+                        <button class="exit" onclick="fermerDetail()"><img src="xmark-solid-full.svg" alt="exit"></button>
+                        <b>HTML, CSS, JavaScript, PHP</b>
+                        <li>Gestion multi-rôles et leurs particularités: Cuisinier, Chef, Traducteur, Administrateur</li>
+                        <li>Possibilité d'ajouter, modifier, supprimer ou traduire une recette</li>
+                        <li>Gestion multi-langue du site (français et anglais)</li>
+                        <li>Possibilité d'interagir avec les recettes (aimer, donner son avis ou en ajouter une photo)</li>
+                        <li>Interface utilisateur intuitive avec le temps de préparation, les ingrédients et les spécificités mis en avant</li>
+                        <li>Recherche et filtres avancés (ingrédients, spécificités, etc.)</li>
+                        <li>Gestion des utilisateurs avec la possibilité de créer, modifier, supprimer son compte et demander des rôles</li>
+                        <li>Mise à jour des données <i>JSON</i> en temps réel avec <i>AJAX</i></li>
+
+                    </ul>
+                </div>
+
+                <div id="detailNibelheim" >
+                    <ul>
+                        <button class="exit" onclick="fermerDetail()"><img src="xmark-solid-full.svg" alt="exit"></button>
+                        <b>Nibelheim: Java</b>
+                        <li>Utilisation de la bibliothèque <i>Java Swing</i> pour l'interface graphique</li>
+                        <li>Gestion des déplacements des éléments en temps réel grâce aux <i>Threads</i> et aux évenements <i>MouseListener</i></li>
+                        <li>Gestion des différents type d'ennemis et leur particularités(attaque simple, tirs, etc.)</li>
+                        <li>Génération aléatoire d'obstacles </li>
+                        <li>Implémentation d'un systeme de niveaux avec augmentation progressive des ennemis</li>
+                        <li>Implémentation d'un systeme de vie et de bonus </li>
+                        <li>Implémentation d'une boutique pour acheter des améliorations grâce aux bonus</li>
+                        <li>Utilisation de <i>Github</i> pour le contrôle de version</li>
+                        <li>Utilisation de Github Copilot pour l'assistance à la programmation</li>
+                        <li>Utilisation du patron MVC pour l'architecture du jeu</li>
+
+
+                    </ul>
+                </div>
+
+                <div id="detailCircle">
+                    <ul>
+                        <button class="exit" onclick="fermerDetail()"><img src="xmark-solid-full.svg" alt="exit"></button>
+                        <b>Circle: Java</b>
+                        <li>Gestion des sauts grâce aux <i>Threads</i> et aux évenements <i>MouseListener</i></li>
+                        <li>Implémentation d'un systeme de gravité entrainant la chute de l'ovale</li>
+                        <li>Dessin et animation d'element graphique (ligne brisée, nuage, gouttes de pluie)</li>
+                        <li>Utilisation de la bibliothèque <i>Java Swing</i> pour l'interface graphique</li>
+                        <li>Utilisation de <i>Github Copilot</i> pour l'assistance à la programmation</li>
+                        <li>Utilisation du patron <i>MVC</i> pour l'architecture du jeu</li>
+                    </ul>
+                </div>
+
+                <div id="detailJeuPython">
+                    <ul>
+                        <button class="exit" onclick="fermerDetail()"><img src="xmark-solid-full.svg" alt="exit"></button>
+                        <b>Python</b>
+                        <li>Utilisation de la bibliothèque <i>curses</i> pour gérer l’affichage et les interactions clavier</li>
+                        <li>Génération aléatoire d'une carte avec des obstacles et une sortie</li>
+                        <li>Création et animation d'un personnage avec une position et un score</li>
+                        <li>Gestion des collisions avec les obstacles et les bonus</li>
+                        
+                    </ul>
+                </div>
+
+                <div id="detailJourney">
+                    <ul>
+                        <button class="exit" onclick="fermerDetail()"><img src="xmark-solid-full.svg" alt="exit"></button>
+                        <b>Journey: HTML, CSS, JavaScript, PHP</b>
+                        <li>Intégration de fonctionnalités de recherche et de filtrage de vols par lieu et date du départ et d'arrivée</li>
+                        <li>Gestion dynamique des réservations avec génération d'un numéro unique</li>
+                        <li>Systeme d'authentification sécurisé des utilisateurs</li>
+                        <li>Gestion des données avec une base de donnée<i>MySQL</i></li>
+                    </ul>
+                </div>
+
+                <!--<div id="detailCryptageJava">
+                    <ul>
+                        <button class="exit" onclick="fermerDetail()"><img src="xmark-solid-full.svg" alt="exit"></button>
+                        
+                        <li>Création d'un système de cryptage et décryptage de messages</li>
+                        <li>Utilisation de l'algorithme de César</li>
+                    </ul>
+                </div>-->
+
+                <div id="detailOngle">
+                    <ul>
+                        <button class="exit" onclick="fermerDetail()"><img src="xmark-solid-full.svg" alt="exit"></button>
+                        <b>HTML, CSS, JS et PHP</b>
+                        <li>Intégration de fonctionnalités de recherche des articles</li>
+                        <li>Gestion multi-rôles et leurs permissions : Administrateur et Utilisateur</li>
+                        <li>Possibilité d'interagir avec les articles (ajouter a son panier, donner son avis)</li>
+                        <li>Gestion des données avec une base de données <i>MySQL</i></li>
+                    </ul>
+
+            </section>
+            
+        </div>
+
+        <div id="contact">
+            <h5>Mon <span>portfolio</span> </h5>
+            <h3>CONTACT</h3>
+
+            <div class="Co">
+            
+                <img  id="lettre" src="lettre.png">
+                <div> <p id="chere4"> Chère Hafiza, </p></div>
+                <div id="cofond">
+                    <form class="formulaireCA" id="contact-form">
+                        <label for="texteA">Nom & prénom:</label>
+                        <input type="text" name="nom" id="champNom" required>
+                        <br>
+                    
+                        <label for="texteB">Email:</label>
+                        <input type="email" name="email"  id="champEmail" required>
+                        <br>
+                        <label for="texteC">Votre message:</label>
+                        <textarea name="message" id="champMessage" required></textarea>
+                        <button type="submit" id="envoie">Envoyer</button>
+                    </form>
+
+                    <div> <p id="chere1"> Hafiza Ballo</p></div>
+                    <div> <p id="chere2"> Paris, France</p></div>
+                    <div> <p id="chere3"> hafizafatimab@gmail.com</p></div>
+                    
+                    <div class="iconecontact">
+                        <a href="https://www.linkedin.com/in/hafiza-ballo-1054a1294?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEdDYVUBGka0Tpb22PsQwCSr13NezUCWZ-Q&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BUQIkAtiAQZymOETFnMjlwA%3D%3D"><img  src="linkedin.svg"></a>
+                        <span><img src="phone-solid.svg"></span>
+                        <p class="tel">0751572598</p>
+                    </div>
+                    
+                </div>
+                <div class="remerci"><p id="merci"> Merci pour votre message <img src="face-smile-regular.svg"></p></div>
+            </div>
+        </div>
+
+        
+
+
+        
+
+
+
+        <script>
+            function AfficherDiv(ClassName){
+                if (document.getElementsByClassName(ClassName)[0].style.visibility=='hidden' || 
+                document.getElementsByClassName(ClassName)[0].style.visibility==""){
+                    document.getElementsByClassName(ClassName)[0].style.visibility = 'visible'
+                }
+                else{
+                    document.getElementsByClassName(ClassName)[0].style.visibility='hidden'
+                }
+            }
+
+            /*const info= document.getElementById("info");
+            info.onclick= function() {
+            AfficherDiv("cache1");
+            document.getElementsByClassName("cache2")[0].style.visibility='hidden';
+            document.getElementsByClassName("cache3")[0].style.visibility='hidden'
+            };
+
+            const math= document.getElementById("math");
+            math.onclick= function() {
+            AfficherDiv("cache2");
+            document.getElementsByClassName("cache1")[0].style.visibility='hidden';
+            document.getElementsByClassName("cache3")[0].style.visibility='hidden'
+            };
+
+            const eco= document.getElementById("eco");
+            eco.onclick= function() {
+            AfficherDiv("cache3")
+            document.getElementsByClassName("cache1")[0].style.visibility='hidden';
+            document.getElementsByClassName("cache2")[0].style.visibility='hidden'
+            };*/
+
+            function AfficherAcacherB(ClassNameA,ClassNameB ){
+                if (document.getElementsByClassName(ClassNameA)[0].style.visibility=='hidden' || 
+                document.getElementsByClassName(ClassNameA)[0].style.visibility==""){
+                    document.getElementsByClassName(ClassNameA)[0].style.visibility = 'visible'
+                    document.getElementsByClassName(ClassNameB)[0].style.visibility = 'hidden'
+
+                    document.getElementById(ClassNameA+'Id').style.backgroundColor='#F3D3A0'
+                    document.getElementById(ClassNameA+'Id').style.borderRadius='20%'
+                    document.getElementById(ClassNameB +'Id').style.backgroundColor='transparent'
+                }  
+            };
+            /*const moicacheId=document.getElementById("moicacheId");
+            moicacheId.onclick=function(){
+                AfficherAcacherB("moicache","PTcache")
+            };
+            const PTcacheId=document.getElementById("PTcacheId");
+            PTcacheId.onclick=function(){
+                AfficherAcacherB("PTcache","moicache")
+            };*/
+
+            function boutonTout(){
+                document.getElementsByClassName("container")[0].style.visibility='visible'
+                /*document.getElementsByClassName("espace")[0].style.visibility='hidden'
+                document.getElementById("Prescache").style.display='none'
+                document.getElementById("PrescachePt").style.display='none'*/
+                
+                document.getElementsByClassName("MesC")[0].style.visibility='hidden'
+                //document.getElementsByClassName("parcoursS")[0].style.visibility='hidden' 
+
+                document.getElementById("tout").style.backgroundColor='#F3D3A0'
+                document.getElementById("tout").style.borderRadius='20%'
+               // document.getElementById("pres").style.backgroundColor='transparent'
+                document.getElementById("Cpt").style.backgroundColor='transparent'
+                //document.getElementById("dip").style.backgroundColor='transparent'
+            };
+
+            /*function boutonPres(){
+                document.getElementsByClassName("espace")[0].style.visibility='visible'
+                document.getElementById("Prescache").style.display='block'
+                document.getElementById("PrescachePt").style.display='block'
+                document.getElementsByClassName("container")[0].style.visibility='hidden'
+                //document.getElementById("containercache").style.display='none'
+                document.getElementsByClassName("MesC")[0].style.visibility='hidden'
+                //document.getElementsByClassName("parcoursS")[0].style.visibility='hidden' 
+
+                document.getElementById("pres").style.backgroundColor='#F3D3A0'
+                document.getElementById("pres").style.borderRadius='20%'
+                document.getElementById("tout").style.backgroundColor='transparent'
+                document.getElementById("Cpt").style.backgroundColor='transparent'
+                //document.getElementById("dip").style.backgroundColor='transparent'
+            };*/
+
+            function boutonCpt(){
+                document.getElementsByClassName("MesC")[0].style.visibility='visible'
+                /*document.getElementsByClassName("espace")[0].style.visibility='hidden'
+                document.getElementById("Prescache").style.display='none'
+                document.getElementById("PrescachePt").style.display='none'*/
+
+                document.getElementsByClassName("container")[0].style.visibility='hidden'
+                //document.getElementsByClassName("parcoursS")[0].style.visibility='hidden' 
+
+                document.getElementById("Cpt").style.backgroundColor='#F3D3A0'
+                document.getElementById("Cpt").style.borderRadius='20%'
+                //document.getElementById("pres").style.backgroundColor='transparent'
+                document.getElementById("tout").style.backgroundColor='transparent'
+                //document.getElementById("dip").style.backgroundColor='transparent'
+            };
+            
+            const tout =document.getElementById("tout");
+            tout.onclick=function(){  
+                boutonTout()
+            };
+            /*const pres =document.getElementById("pres");
+            pres.onclick=function(){  
+                boutonPres()
+            };*/
+            const Cpt =document.getElementById("Cpt");
+            Cpt.onclick=function(){  
+                boutonCpt()
+            };
+
+            const comptease=document.getElementById("comptease");
+            comptease.onclick=function(){ 
+                document.getElementsByClassName("detailProjet")[0].style.display='block'; 
+                document.getElementById("detailComptease").style.display='block';
+            };
+
+            const cuisine=document.getElementById("cuisine");
+            cuisine.onclick=function(){ 
+                document.getElementsByClassName("detailProjet")[0].style.display='block'; 
+                document.getElementById("detailCuisine").style.display='block';
+            };
+
+            const nibelheim=document.getElementById("nibelheim");
+            nibelheim.onclick=function(){ 
+                document.getElementsByClassName("detailProjet")[0].style.display='block'; 
+                document.getElementById("detailNibelheim").style.display='block';
+            };
+
+            const circle=document.getElementById("circle");
+            circle.onclick=function(){ 
+                document.getElementsByClassName("detailProjet")[0].style.display='block'; 
+                document.getElementById("detailCircle").style.display='block';
+            };
+
+            const jeuPython=document.getElementById("jeuPython");
+            jeuPython.onclick=function(){ 
+                document.getElementsByClassName("detailProjet")[0].style.display='block'; 
+                document.getElementById("detailJeuPython").style.display='block';
+            };
+
+            const journey=document.getElementById("journey");
+            journey.onclick=function(){ 
+                document.getElementsByClassName("detailProjet")[0].style.display='block'; 
+                document.getElementById("detailJourney").style.display='block';
+            };
+
+            /*const crypter=document.getElementById("crypter");
+            crypter.onclick=function(){ 
+                document.getElementsByClassName("detailProjet")[0].style.display='block'; 
+                document.getElementById("detailCryptageJava").style.display='block';
+            };*/
+
+            const ongle=document.getElementById("ongle");
+            ongle.onclick=function(){ 
+                document.getElementsByClassName("detailProjet")[0].style.display='block'; 
+                document.getElementById("detailOngle").style.display='block';
+            };
+
+            function fermerDetail(){
+                document.getElementsByClassName("detailProjet")[0].style.display='none'; 
+                document.getElementById("detailComptease").style.display='none';
+                document.getElementById("detailCuisine").style.display='none';
+                document.getElementById("detailNibelheim").style.display='none';
+                document.getElementById("detailCircle").style.display='none';
+                document.getElementById("detailJeuPython").style.display='none';
+                document.getElementById("detailJourney").style.display='none';
+               // document.getElementById("detailCryptageJava").style.display='none';
+                document.getElementById("detailOngle").style.display='none';
+            }
+
+
+           /* function remerciement(){
+                document.getElementsByClassName("remerci")[0].style.visibility='visible'
+                document.getElementsByClassName("formulaireCA")[0].style.filter='blur(5px)';
+                document.getElementById("chere4").style.filter='blur(5px)';
+                setTimeout(function(){  
+                    document.getElementsByClassName("remerci")[0].style.visibility="hidden"; 
+                    document.getElementsByClassName("formulaireCA")[0].style.filter='none';
+                    document.getElementById("chere4").style.filter='none';
+                    }, 2000);
+            }
+            const envoie= document.getElementById("envoie");
+
+            envoie.onclick=function(){
+                remerciement()
+                
+            };*/
+
+            (function(){
+                emailjs.init("-g07zXe8huDnI4WsM"); // ← Mets ta Public Key ici
+            })();
+
+            document.getElementById('contact-form').addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                emailjs.sendForm('service_w7bk1qp', 'template_gvceiic', this)
+                .then(function() {
+                    document.getElementsByClassName("remerci")[0].style.visibility='visible'
+                    document.getElementsByClassName("formulaireCA")[0].style.filter='blur(5px)';
+                    document.getElementById("chere4").style.filter='blur(5px)';
+                    /*setTimeout(function(){  
+                        document.getElementsByClassName("remerci")[0].style.visibility="visible"; 
+                        document.getElementsByClassName("formulaireCA")[0].style.filter='none';
+                        document.getElementById("chere4").style.filter='none';
+                        }, 3000);*/
+                }, function(error) {
+                    alert('Erreur : ' + JSON.stringify(error));
+                });
+            });
+
+
+
+        </script>
+        
+    </body>
+
+</html>
