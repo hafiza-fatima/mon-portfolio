@@ -380,7 +380,7 @@ transition: 0.1s;
 @media all and (max-width:430px){
     #chere1{margin-left: 45vw;}
     body{height: 100vh;width: 100vw; font-size: 0.9em;}
-    .boxJeu{width: 45%; height: 70%;}
+    .boxJeu{width: 45%; height: 40%;}
      .exit{height: 5vw;width: 5vw;}
      .menu-haut{height: 5%;}
     .menu-haut label img{margin-top: -5%;}
