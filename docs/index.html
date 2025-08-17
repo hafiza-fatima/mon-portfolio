@@ -349,6 +349,7 @@
                         </div>
                     </div>
                     <div> <p id="chere4"> Chère Hafiza, </p></div>
+                    <div class="remerci"><p id="merci"> Merci pour votre message <img src="face-smile-regular.svg"></p></div>
 
                     <form class="formulaireCA" id="contact-form">
                         <label for="champNom">Nom & prénom:</label>
@@ -366,7 +367,6 @@
                     
 
                 </div>
-                <div class="remerci"><p id="merci"> Merci pour votre message <img src="face-smile-regular.svg"></p></div>
             </div>
         </div>
 
@@ -551,12 +551,12 @@
             }
 
 
-           /* function remerciement(){
-                document.getElementsByClassName("remerci")[0].style.visibility='visible'
+            function remerciement(){
+                document.getElementsByClassName("remerci")[0].style.display='block';
                 document.getElementsByClassName("formulaireCA")[0].style.filter='blur(5px)';
                 document.getElementById("chere4").style.filter='blur(5px)';
                 setTimeout(function(){  
-                    document.getElementsByClassName("remerci")[0].style.visibility="hidden"; 
+                    document.getElementsByClassName("remerci")[0].style.display="none"; 
                     document.getElementsByClassName("formulaireCA")[0].style.filter='none';
                     document.getElementById("chere4").style.filter='none';
                     }, 2000);
@@ -566,7 +566,7 @@
             envoie.onclick=function(){
                 remerciement()
                 
-            };*/
+            };
 
             (function(){
                 emailjs.init("-g07zXe8huDnI4WsM"); // ← Mets ta Public Key ici
