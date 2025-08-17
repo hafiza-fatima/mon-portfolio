@@ -9,7 +9,7 @@ img {
 }
 h2{color: #bb6916; ;}
 h2 span{color: white;}
-.menu-haut{ background-color: #F3D3A0; width: 100%; height: 17.5%;z-index: 100%;}
+.menu-haut{ background-color: #F3D3A0; width: 100%; height: 17vh;z-index: 100%;}
 
 .menu-haut label img{height: 3%; width: 3%;}
 
@@ -286,10 +286,7 @@ transition: 0.1s;
     padding-bottom: 3%;
     margin-top: 0;
 }
-@media all and (max-width:430px){
-    .exit{height: 5vw;width: 5vw;}
 
-}
 
 #detailComptease{
     display:none;
@@ -327,14 +324,14 @@ transition: 0.1s;
 #champEmail{/* height: clamp(20px, 120%, 40px); width: clamp(150px, 30%, 400px)*/height: 140%; width: 40%; background-color: #F3D3A0;border: dotted #bb6916 2px; border-radius: 5px;}
 
 
-#champMessage{ /*height: clamp(70px, 340%, 140px); width: clamp(150px, 35%, 400px)*/height: 300%;width: 60%;background-color: #F3D3A0;border: dotted #bb6916 2px; border-radius: 5px;
+#champMessage{ /*height: clamp(70px, 340%, 140px); width: clamp(150px, 35%, 400px)*/height: 300%;width: 80%;background-color: #F3D3A0;border: dotted #bb6916 2px; border-radius: 5px;
                 padding: 1%;}
 
 
 
 #lettre{height: 50vw;width: 70vw; }
 .Co{margin-left: 10%;border: solid 3px black; border-radius: 10px;padding: 0;
-    width: 90%;max-width: 900px;height: 90%;padding-bottom: 10%;}
+    width: 90%;max-width: 900px;height: 115%;min-height: 60%;}
 
 #chere1{margin-left: 0; margin-top: 0;}
 #chere2{margin-left:0; margin-top: 0}
@@ -343,7 +340,7 @@ transition: 0.1s;
         position: static;}
 
 #envoie{ margin-left:80%; font-family:'Comic Neue','Comic Sans MS';font-size: 1.2em; background-color:#F3D3A0; border: transparent;
-    margin-top: 15%; width: 15%;}
+    margin-top: 15%; width: 15%;color:black}
 #envoie:hover{background-color: #bb6916;}
 #merci{margin-left: 20vw; margin-top: -30vw;  font-size: 160%;}
 .remerci{visibility: hidden;}
@@ -361,22 +358,33 @@ transition: 0.1s;
 
 }
 #coordonnees{ margin-bottom: 0;padding-bottom: 0;margin-left: 2%;
-    position:static;margin-top: 4%;}
+    position:static;margin-top: 2%;}
 .iconecontact{margin-top:0; margin-left: 0;}
-.iconecontact img{height: 9%;}
+.iconecontact img{height: 10%;}
 .tel{display: none ;margin-left: 6%; }
 .iconecontact span:hover + .tel{ display:block}
 
 
+@media all and (max-width:1030px){
+    .container{height: 50%;}
+    .Co{height: 60%;}
+}
+@media all and (max-width:920px){
+    .menu-haut{ height: 10%;}
+}
+@media all and (max-width:560px){
+    .container{margin-left: 15%;}
+
+}
 
 @media all and (max-width:430px){
-    #chere1{margin-left: 45vw; margin-top: -17vw;}
-    body{max-height: 100vw;max-width: 100vw; font-size: 0.9em;}
-    .boxJeu{width: 30%;}
-    .menu-haut{ height: 12vw;}
+    #chere1{margin-left: 45vw;}
+    body{height: 100vh;width: 100vw; font-size: 0.9em;}
+    .boxJeu{width: 45%;}
+     .exit{height: 5vw;width: 5vw;}
     .menu-haut label img{margin-top: -5%;}
-
-    
+    .Co{height: 60%;}
+    .iconecontact img{height: 3%;}
 
 }
 
