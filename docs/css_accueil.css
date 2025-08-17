@@ -240,7 +240,7 @@ transition: 0.1s;
 .boxJeu button:hover .imageapropos{transform: translateX(40%);}
 .boxJeu .imageapropos{height: 7%; width: 7%;}
 .boxJeu{color: black;}
-.im-jeu{width: 95%; border-radius: 0px;}
+.im-jeu{width: 95%; border-radius: 10px;}
 .im-jeu2{ width: 95%; border-radius: 10px;padding-bottom: 2vw;padding-top: 2vw;}
 
 .proj{filter: none;display: flex;justify-content: space-between;flex-wrap: wrap;align-items: center;column-gap: 4vw;
