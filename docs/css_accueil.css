@@ -241,7 +241,7 @@ transition: 0.1s;
 .boxJeu .imageapropos{height: 7%; width: 7%;}
 .boxJeu{color: black;}
 .im-jeu{height: 95%; width: 95%; border-radius: 10px;}
-.im-jeu2{height: 95%; width: 95%; border-radius: 10px;padding-bottom: 2vw;padding-top: 2vw;}
+.im-jeu2{ width: 95%; border-radius: 10px;padding-bottom: 2vw;padding-top: 2vw;}
 
 .proj{filter: none;display: flex;justify-content: space-between;flex-wrap: wrap;align-items: center;column-gap: 4vw;
      padding-bottom:10vw; }
