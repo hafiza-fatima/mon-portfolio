@@ -126,7 +126,7 @@ font-family:'Comic Neue', 'Comic Sans MS';}
 
 
 .prop0{ background-color: #F3D3A0; border:transparent;font-weight:bold;font-size: 1.3em;border-radius: 20%;
-    font-family:'Comic Neue', 'Comic Sans MS';}
+    font-family:'Comic Neue', 'Comic Sans MS';color:black}
 .menuapropos{margin-top:5vw;margin-bottom: 2%; display: flex;justify-content: center; align-items: center; column-gap: 5vw;}
 
 .imageapropos{height: 5vw; width: 5vw;vertical-align: middle;}
@@ -374,14 +374,15 @@ transition: 0.1s;
 }
 @media all and (max-width:560px){
     .container{margin-left: 15%;}
-
+    #envoie{width: 25%;}
 }
 
 @media all and (max-width:430px){
     #chere1{margin-left: 45vw;}
     body{height: 100vh;width: 100vw; font-size: 0.9em;}
-    .boxJeu{width: 45%;}
+    .boxJeu{width: 45%; height: 70%;}
      .exit{height: 5vw;width: 5vw;}
+     .menu-haut{height: 5%;}
     .menu-haut label img{margin-top: -5%;}
     .Co{height: 60%;}
     .iconecontact img{height: 3%;}
