@@ -241,7 +241,7 @@ transition: 0.1s;
 .boxJeu .imageapropos{height: 7%; width: 7%;}
 .boxJeu{color: black;}
 .im-jeu{width: 95%; border-radius: 0px;}
-.im-jeu2{ width: 95%; border-radius: 10px;padding-bottom: 2vw;padding-top: 2vw;background-color: royalblue;}
+.im-jeu2{ width: 95%; border-radius: 10px;padding-bottom: 2vw;padding-top: 2vw;}
 
 .proj{filter: none;display: flex;justify-content: space-between;flex-wrap: wrap;align-items: center;column-gap: 4vw;
      padding-bottom:10vw; }
@@ -282,7 +282,7 @@ transition: 0.1s;
     cursor: pointer;
     height: 5%;
     width: 5%;
-    margin-left: 95%;
+    margin-left: 90%;
     padding-bottom: 3%;
     margin-top: 0;
 }
